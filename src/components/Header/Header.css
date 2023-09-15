@@ -1,0 +1,72 @@
+.logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name, .title {
+  font-family: cormorant;
+  background-color: #FBFAF9;
+  text-align: left;
+  padding: 0 0 0 15px;
+  height: 100%;
+  font-weight: 200;
+  line-height: 1;
+}
+
+p { margin: 16px 0 0 0; }
+
+/* Styles for screens up to 500px */
+@media screen and (max-width: 500px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+    margin-top: -10px;
+  }
+  .title-container {
+    margin-left: 135px;
+    margin-bottom: 9px;
+  }
+  .name {
+    width: 120px;
+    font-size: 18px;
+  }
+
+  .title {
+    width: 175px;
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens from 501px to 3000px */
+@media screen and (min-width: 501px) and (max-width: 3000px) {
+  .logo-container {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    height: 200px;
+    width: 200px;
+    margin-top: -25px;
+  }
+
+  .title-container {
+    margin: -50px 0 25px 375px;
+  }
+
+  .name {
+    width: 275px;
+    font-size: 42px;
+  }
+
+  .title {
+    width: 350px;
+    font-size: 42px;
+  }
+}

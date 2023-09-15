@@ -1,0 +1,17 @@
+.sonder-title {
+  transform: rotate(-15deg);
+  font-size: 40px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0 0 0;
+  padding-bottom: 150px;
+}
+
+.sonder-definition {
+  margin-left: 15px;
+  font-size: 15px;
+}
